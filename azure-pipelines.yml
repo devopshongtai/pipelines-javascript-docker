@@ -1,7 +1,7 @@
 trigger:
 - main
    
-pool: default
+pool: 'Azure Pipelines'
 
 variables:
   imageName: 'pipelines-javascript-docker'
