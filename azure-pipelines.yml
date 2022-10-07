@@ -1,7 +1,8 @@
 trigger:
 - main
    
-pool: 'Azure Pipelines'
+pool: 
+  vmImage: 'ubuntu-latest'
 
 variables:
   imageName: 'pipelines-javascript-docker'
